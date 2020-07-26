@@ -29,9 +29,8 @@ Statistical methods are used to select the features that have the highest relati
 
 The scikit-learn library provides the SelectKBest class that can be used with a suite of different statistical tests to select a specific number of features.
 
-In the example below, we have used the chi-squared (χ²) statistical test to select 10 of the best features from the Mobile Price Range Prediction Dataset. Pearson's chi-squared test is a statistical test that measures how expectations compare to model results. 
-https://www.kaggle.com/iabhishekofficial/mobile-price-classification?select=train.csv
-Independent variables in this dataset are: 
+In the example below, we have used the chi-squared (χ²) statistical test to select 10 of the best features from the Mobile Price Range Prediction Dataset.
+Independent variables in this dataset are:  
 battery_power: Total energy a battery can store in one time measured in mAh
 blue: Has Bluetooth or not
 clock_speed: the speed at which microprocessor executes instructions
