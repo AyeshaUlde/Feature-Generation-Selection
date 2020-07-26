@@ -31,27 +31,27 @@ The scikit-learn library provides the SelectKBest class that can be used with a 
 
 In the example below, we have used the chi-squared (χ²) statistical test to select 10 of the best features from the Mobile Price Range Prediction Dataset.
 Independent variables in this dataset are:  
-battery_power: Total energy a battery can store in one time measured in mAh
-blue: Has Bluetooth or not
-clock_speed: the speed at which microprocessor executes instructions
-dual_sim: Has dual sim support or not
-fc: Front Camera megapixels
-four_g: Has 4G or not
-int_memory: Internal Memory in Gigabytes
-m_dep: Mobile Depth in cm
-mobile_wt: Weight of mobile phone
-n_cores: Number of cores of the processor
-pc: Primary Camera megapixels
-px_height
-Pixel Resolution Height
-px_width: Pixel Resolution Width
-ram: Random Access Memory in MegaBytes
-sc_h: Screen Height of mobile in cm
-sc_w: Screen Width of mobile in cm
-talk_time: the longest time that a single battery charge will last when you are
-three_g: Has 3G or not
-touch_screen: Has touch screen or not
-wifi: Has wifi or not
+1. battery_power: Total energy a battery can store in one time measured in mAh
+2. blue: Has Bluetooth or not
+3. clock_speed: the speed at which microprocessor executes instructions
+4. dual_sim: Has dual sim support or not
+5. fc: Front Camera megapixels
+6. four_g: Has 4G or not
+7. int_memory: Internal Memory in Gigabytes
+8. m_dep: Mobile Depth in cm
+9. mobile_wt: Weight of mobile phone
+10. n_cores: Number of cores of the processor
+11. pc: Primary Camera megapixels
+12. px_height
+13. Pixel Resolution Height
+14. px_width: Pixel Resolution Width
+15. ram: Random Access Memory in MegaBytes
+16. sc_h: Screen Height of mobile in cm
+17. sc_w: Screen Width of mobile in cm
+18. talk_time: the longest time that a single battery charge will last when you are
+19. three_g: Has 3G or not
+20. touch_screen: Has touch screen or not
+21. wifi: Has wifi or not
 Dependent variable is :
 price_range: This is the target variable with a value of 0(low cost), 1(medium cost), 2(high cost) and 3(very high cost).
 
