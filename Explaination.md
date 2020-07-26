@@ -52,6 +52,7 @@ Independent variables in this dataset are:
 19. three_g: Has 3G or not
 20. touch_screen: Has touch screen or not
 21. wifi: Has wifi or not
+
 Dependent variable is :
 price_range: This is the target variable with a value of 0(low cost), 1(medium cost), 2(high cost) and 3(very high cost).
 
